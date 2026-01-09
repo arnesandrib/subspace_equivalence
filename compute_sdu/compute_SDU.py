@@ -1,7 +1,7 @@
 import numpy as np
 from numba import njit,get_num_threads,prange
 
-from subspace_utils import buildAffineHull, getNumpyAffineSpaces
+from .subspace_utils import buildAffineHull, getNumpyAffineSpaces
 
 
 DT = np.uint16

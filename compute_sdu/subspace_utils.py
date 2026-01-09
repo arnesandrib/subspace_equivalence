@@ -1,7 +1,7 @@
 import numpy as np
 from numba import njit
 
-from generate_subspaces import gaussean_binomial_coeff, get_all_bases
+from .generate_subspaces import gaussean_binomial_coeff, get_all_bases
 
 
 @njit(cache=True)
